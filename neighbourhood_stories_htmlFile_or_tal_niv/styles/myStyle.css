@@ -1,0 +1,1085 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.notActive {
+    cursor: not-allowed;
+}
+
+
+body {
+    width: 1525px;
+    margin: auto;
+    direction: rtl;
+    background-color: rgba(32, 31, 31, 0.9);
+}
+
+header {
+    height: 81px;
+    position: fixed;
+    z-index: 10;
+    top: -2px;
+    width: 1440px;
+}
+
+#container * {
+    font-family: 'Assistant', sans-serif;
+}
+
+#container {
+    position: relative;
+    z-index: 1;
+}
+.accessibility{
+	position: absolute;
+	
+}
+
+#skip{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+        margin-left: 0;
+	text-align: center;
+	list-style: outside none;
+}
+
+#skip li{ list-style-type: none }
+
+#skip a{
+	position: absolute;
+	left: -99999px;
+	top: 30px;
+}
+
+#skip a:focus, #skip a:active{
+	position: relative;
+	left: 0;
+	z-index:9999;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding: 30px 45px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: -4px !important;
+	font: bold 50px "Arial", "Freesans", sans-serif !important;
+    color: #AEAEFE;
+	background: transparent url(transparent.png) repeat scroll 0 0;
+	border: 1px dotted #ffb4db;
+}
+
+#homePage {
+    position: relative;
+    top: 200px;
+    z-index: 2;
+}
+/* top Navigatin */
+#topnav {
+    width: 1525px;
+}
+
+    #topnav ul {
+        width: 1525px;
+        background-color: rgba(32, 31, 31, 0.84);
+        height: 109px;
+    }
+
+        #topnav ul li {
+            display: inline-block;
+            position: relative;
+            height: 10px;
+            right: 25px;
+            top: -5px;
+        }
+
+
+            #topnav ul li a {
+                display: block;
+                color: white;
+                width: 190px;
+                height: 50px;
+                margin-right: 50px;
+                text-decoration: none;
+                text-align: center;
+                font-size: 17pt;
+                position: relative;
+                padding-left: 10px;
+                z-index: 1000;
+                bottom: 20px;
+                padding-bottom: 40px;
+            }
+
+
+                #topnav ul li a:hover {
+                    color: rgb(245, 224, 40);
+
+                }
+
+                #topnav ul li a:active {
+                    color: rgb(245, 224, 40);
+                }
+
+
+            #topnav ul li ul {
+                display: none;
+                position: absolute;
+                top: 94px;
+                left: 115px;
+                background-color: rgba(46, 46, 46, 0);
+            }
+
+                #topnav ul li ul li {
+                    top: -51px;
+                    height: 050px;
+                    width: 220px;
+                    background-color: rgba(46, 46, 46, 0.905);
+                }
+
+                    #topnav ul li ul li a {
+                        top: 10px;
+                        left: 45px;
+                        height: 40px;
+                        width: 96%;
+                    }
+
+                        #topnav ul li ul li a:active {
+                            color: rgb(245, 224, 40);
+                        }
+
+            #topnav ul li:hover > ul {
+                display: block;
+                width: 120px;
+            }
+
+.navtitle {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    height: 40px;
+}
+
+#navflor {
+    background-image: url(../images/mustard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navneve {
+    background-image: url(../images/pink.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+}
+
+#navtikva {
+    background-image: url('../images/navy (1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* logo */
+
+
+#logo {
+    margin-right: 580px;
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+    right: -550px;
+    top: -5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* florentin home page */
+
+#flortxt {
+    position: relative;
+    top: 102px;
+}
+
+
+#florSection {
+    height: 750px;
+    width: 100%;
+    background-image: url('../images/backgrownd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+#titleH2F {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+    background-color: rgb(160, 153, 90);
+    color: rgb(255, 242, 231);
+    width: 480px;
+    height: 60px;
+    padding-right: 10px;
+    margin-right: 100px;
+    margin-top: -195px;
+    letter-spacing: 3px;
+}
+
+#neighflorP {
+    font-family: 'Bellefair', serif;
+    width: 280px;
+    height: 320px;
+    font-size: 17pt;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 100px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.4;
+    
+}
+
+#linkPassFlorentin {
+    width: 280px;
+    height: 50px;
+    font-size: 18pt;
+    background-color: rgba(160, 153, 90, 0.795);
+    color: rgb(255, 242, 231);
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-right: 100px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+    #linkPassFlorentin a {
+        font-family: 'Bellefair', serif;
+        text-decoration: none;
+        color: rgb(255, 242, 231);
+    }
+
+        #linkPassFlorentin a:hover {
+            border-bottom: 3px solid rgb(255, 232, 232);
+        }
+
+
+
+#neighPass {
+    background-color: rgb(160, 153, 90);
+}
+
+
+/* neve tzedek home page */
+
+#tzedekSection {
+    position: relative;
+    top: 5px;
+    height: 750px;
+    width: 100%;
+    background-image: url('../images/neve2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#titleH2N {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+    background-color: rgb(236, 173, 187);
+    color: rgb(255, 242, 231);
+    width: 479px;
+    height: 60px;
+    padding-top: 5px;
+    padding-right: 145px;
+    margin-right: 867px;
+    letter-spacing: 3px;
+}
+
+#neighNeveP {
+    width: 280px;
+    height: 350px;
+    font-size: 17pt;
+    font-family: 'Bellefair', serif;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 1200px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.4;
+}
+
+
+#linkPassNeve {
+    width: 280px;
+    height: 50px;
+    font-size: 18pt;
+    background-color: rgb(236, 173, 187);
+    color: rgb(255, 242, 231);
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-right: 1200px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+    #linkPassNeve a {
+        font-family: 'Bellefair', serif;
+        text-decoration: none;
+        color: rgb(255, 242, 231);
+    }
+
+        #linkPassNeve a:hover {
+            border-bottom: 3px solid rgb(255, 232, 232);
+        }
+
+/* hatikva home page */
+
+
+#hatikvaSection {
+    height: 750px;
+    width: 100%;
+    background-image: url('../images/spice.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    position: relative;
+    top: 12px;
+}
+
+
+#titleH2H {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+    background-color: rgb(66, 108, 199);
+    color: rgb(255, 242, 231);
+    width: 480px;
+    height: 60px;
+    padding-right: 10px;
+    margin-right: 100px;
+    margin-top: 5px;
+    letter-spacing: 3px;
+}
+
+
+#neighHatikvaP {
+    font-family: 'Bellefair', serif;
+    width: 280px;
+    height: 355px;
+    font-size: 17pt;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 100px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.4;
+}
+
+#linkPassHatikva {
+    width: 280px;
+    height: 50px;
+    font-size: 18pt;
+    background-color: rgb(66, 108, 199);
+    color: rgb(255, 242, 231);
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-right: 100px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+    #linkPassHatikva a {
+        font-family: 'Bellefair', serif;
+        text-decoration: none;
+        color: rgb(255, 242, 231);
+    }
+
+
+
+        #linkPassHatikva a:hover {
+            border-bottom: 3px solid rgb(255, 232, 232);
+        }
+
+
+
+
+
+
+/* about */
+
+#aboutbody {
+    background-image: url('../images/art.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aboutsection {
+    background-color: #00000085;
+    width: 100%;
+    height: 1395px;
+    margin-bottom: -590px;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    padding-top: 170px;
+}
+
+#nivPic {
+    position: relative;
+    right: 500px;
+    top: 70px;
+}
+
+#orPic {
+    position: relative;
+    right: 500px;
+    top: 70px;
+}
+
+#talPic {
+    position: relative;
+    right: 500px;
+    top: 70px;
+}
+
+#aboutTitle1 {
+    font-size: 58pt;
+    position: relative;
+    text-align: center;
+}
+
+#aboutp {
+    position: relative;
+    text-align: center;
+}
+
+#aboutp2 {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#coursText {
+    position: relative;
+    right: 500px;
+    padding-top: 100px;
+}
+
+#coursList {
+    position: relative;
+    right: 500px;
+    padding-top: 10px
+}
+
+#hit {
+    position: relative;
+    background-color: #ffffff80;
+    bottom: -215px;
+    height: 255px;
+    width: 100%;
+    right: 0px;
+}
+
+    #hit a {
+        position: relative;
+        right: 600px;
+        top: 30px;
+        font-size: x-large;
+        color: hsl(182, 99%, 27%);
+    }
+
+
+#orPic {
+    background-image: url('../images/or.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#nivPic {
+    background-image: url('../images/niv.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+#talPic {
+    background-image: url('../images/tal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#aboutnav {
+    background: #ffffff80;
+    height: 120px;
+    width: 100%;
+}
+
+    #aboutnav a {
+        color: black;
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+
+/* map web */
+
+#mapbody {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#firstTitleMap {
+    font-size: 25pt;
+    margin-right: 240px;
+    top: -100px;
+}
+
+.second_title_map {
+    font-size: 18pt;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}
+
+#map {
+    display: block;
+    text-decoration: none;
+    margin-right: 375px;
+    margin-top: 100px;
+}
+
+.mapList {
+    height: 100%;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    text-align: right;
+    margin-top: 60px;
+    line-height: 1.6;
+}
+
+#map a {
+    color: rgb(90, 90, 90);
+}
+
+
+    #map a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+    .grayL{
+
+        color: rgb(153, 139, 139);
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+/* contact */
+#contacttitle {
+    text-decoration: underline;
+}
+
+.contact {
+    background-image: url('../images/doortzedek.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    background-color: #00000085;
+    width: 100%;
+    height: 665px;
+    margin-bottom: -312px;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    padding-right: 20px;
+    font-size: 18pt;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+
+
+#contactfoot {
+    margin-top: 312px;
+    font-family: 'Miriam Libre', sans-serif;
+    background-color: #00000085;
+}
+
+/* florentin-page */
+#passage1 {
+    position: absolute;
+    
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+    background-image: url(../images/catagory1.png)
+}
+    #passage1 h1 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 200px;
+        text-align: center;
+        color: rgb(255, 242, 231);
+    }
+#passage2 {
+    position: absolute;
+    top: 300px;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+    background-image: url(../images/catagory1.png)
+}
+#passage2 h1 {
+    
+    font-family: 'Amatic SC', cursive;
+    font-size: 200px;
+    text-align: center;
+    color: rgb(255, 242, 231);
+}
+
+#passage3 {
+    position: absolute;
+    top: 600px;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+    background-image: url(../images/catagory1.png)
+}
+#passage3 h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 200px;
+    text-align: center;
+    color: rgb(255, 242, 231);
+}
+
+/*florentine navigation*/
+#topnavf {
+    width: 1525px;
+}
+
+    #topnavf ul {
+        width: 1525px;
+        background-color: rgba(32, 31, 31, 0.84);
+        height: 109px;
+    }
+
+        #topnavf ul li {
+            display: inline-block;
+            position: relative;
+            height: 10px;
+            right: 25px;
+            top: 16px;
+        }
+
+
+            #topnavf ul li a {
+                display: block;
+                color: white;
+                width: 190px;
+                height: 50px;
+                margin-right: 50px;
+                text-decoration: none;
+                text-align: center;
+                font-size: 17pt;
+                position: relative;
+                padding-left: 10px;
+                z-index: 1000;
+            }
+
+
+                #topnavf ul li a:hover {
+                    color: rgb(245, 224, 40);
+                }
+
+
+            #topnavf ul li ul {
+                display: none;
+                position: absolute;
+                top: 94px;
+                left: 115px;
+                background-color: rgba(46, 46, 46, 0);
+            }
+
+                #topnavf ul li ul li {
+                    top: -51px;
+                    height: 050px;
+                    width: 220px;
+                    background-color: rgba(46, 46, 46, 0.905);
+                }
+
+                    #topnavf ul li ul li a {
+                        top: 5px;
+                        left: 45px;
+                        height: 40px;
+                        width: 96%;
+                    }
+
+                        #topnavf ul li ul li a:hover {
+                            background-color: rgba(46, 46, 46, 0.4);
+                        }
+
+            #topnavf ul li:hover > ul {
+                display: block;
+                width: 120px;
+            }
+
+.navftitle {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}
+
+#navfflor {
+    margin-top: 20px;
+    margin-right: -1px;
+    background-image: url(../images/mustard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navfneve {
+    background-image: url(../images/pink.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+}
+
+#navftikva {
+    background-image: url('../images/navy (1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* florentin video section */
+
+#florvidtxt {
+    position: relative;
+    top: 102px;
+}
+
+
+#florvidSection {
+    height: 642px;
+    width: 100%;
+    position: relative;
+    z-index: -10;
+    top: -90px;
+}
+
+
+
+#titleH2florvid {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+    background-color: rgb(160, 153, 90);
+    color: rgb(255, 242, 231);
+    width: 480px;
+    height: 60px;
+    padding-right: 10px;
+    margin-right: 15px;
+    margin-top: -195px;
+    letter-spacing: 3px;
+}
+
+#neighflorvidP {
+    width: 280px;
+    height: 320px;
+    font-size: 18pt;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.3;
+}
+
+#linkPassflorvid {
+    width: 280px;
+    height: 50px;
+    font-size: 18pt;
+    background-color: rgba(160, 153, 90, 0.795);
+    color: rgb(255, 242, 231);
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-right: 15px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+    #linkPassflorvid a {
+        text-decoration: none;
+        color: rgb(255, 242, 231);
+    }
+
+        #linkPassflorvid a:hover {
+            border-bottom: 3px solid rgb(255, 232, 232);
+        }
+
+
+
+#neighPass {
+    background-color: rgb(160, 153, 90);
+}
+
+videoStyle {
+    padding-top: 0px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#florvideo {
+    position: relative;
+    bottom: 95px;
+}
+/* floerntine community section */
+
+#communFlor {
+    position: relative;
+    top: 5px;
+    height: 1250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -90px;
+}
+
+/* floerntine food section */
+#foodFlor {
+    position: relative;
+    top: 5px;
+    height: 1170px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -90px;
+}
+
+
+/*florentine street section*/
+
+#streetFlor {
+    position: relative;
+    top: 5px;
+    height: 1250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -90px;
+}
+
+/* footer */
+
+.footer ul {
+    height: 75px;
+    width: 1525px;
+    background-color: #404042e6;
+    float: right;
+    text-align: center;
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 15pt;
+    padding-top: 10px;
+}
+
+.footer ul a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 30px;
+    text-align: right;
+}
+
+    .footer ul a:hover {
+        color: rgb(245, 224, 40);
+        border-bottom: 1px solid rgb(245, 224, 40);
+    }
+
+/*shane*/
+#shaneSection {
+    height: 750px;
+    width: 100%;
+    position: relative;
+    z-index: -10;
+}
+/*kiosko*/
+
+#kioskoPage{
+    position: relative;
+    top: 200px;
+
+}
+
+#story1{
+
+    height: 680px;
+    width: 100%;
+    background-image: url('../images/yotam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    position: relative;
+    top: -90px;
+}
+
+#title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+    background-color: rgb(236, 173, 187);
+    color: rgb(255, 242, 231);
+    width: 479px;
+    height: 60px;
+    padding-top: 5px;
+    padding-right: 145px;
+    margin-right: 867px;
+    letter-spacing: 3px;
+
+}
+
+#firstPkiosko{
+    width: 280px;
+    height: 100%;
+    font-size: 17pt;
+    font-family: 'Bellefair', serif;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 1200px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.4;
+}
+
+#story2{
+
+    height: 680px;
+    width: 100%;
+    background-image: url('../images/kiosko.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    position: relative;
+    top: -90px;
+}
+
+
+#secPkiosko {
+    font-family: 'Bellefair', serif;
+    width: 280px;
+    height: 100%;
+    font-size: 17pt;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 100px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.4;
+}
+#story3{
+
+    height: 680px;
+    width: 100%;
+    background-image: url('../images/kiosk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    position: relative;
+    top: -90px;
+}
+#thirdPkiosko{
+    width: 280px;
+    height: 98%;
+    font-size: 17pt;
+    font-family: 'Bellefair', serif;
+    background-color: rgba(68, 66, 66, 0.918);
+    color: rgb(255, 242, 231);
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 1200px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    line-height: 1.4;
+}
+#footerNavK ul {
+    height: 100px;
+    width: 1525px;
+    background-color: #404042e6;
+    float: right;
+    text-align: center;
+    position: relative;
+    top:110px;
+    z-index: 100;
+}
+
+#footerNavK li {
+    display: inline-block;
+    font-size: 15pt;
+    padding-top: 10px;
+}
+
+#footerNavK ul a {
+    color: aliceblue;
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    text-align: right;
+}
+
+#footerNavK ul a:hover {
+        color: rgb(245, 224, 40);
+        border-bottom: 1px solid rgb(245, 224, 40);
+    }

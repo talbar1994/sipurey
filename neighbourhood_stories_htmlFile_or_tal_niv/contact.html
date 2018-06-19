@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="hebrew">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר-סיפורי שכונות</title>
+    <meta name="description" content="סיפורי שכונות" />
+    <meta name="keywords" content="צור קשר, סיפורי שכונות, מכון טכנולוגי חולון"/>
+    <meta name="author" content="טל בר יוסף, ניב בירו, אור אסם" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="Images/favicon.png" >
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+
+
+</head>
+<body class="contact">
+
+
+    <header class="header"> 
+
+               
+            <nav id="topnav">
+                    <ul>
+                    <li> <a href=index.html> דף בית </a> </li>
+                    <li> <a href=“#culinary”>  סיפורים מהמטבח </a>
+                              <ul>
+                      <li> <a href=#culinaryFlor”> בשכונת פלורנטין </a> </li>
+                      <li> <a href=#culinaryNeve” class="notActive"> בשכונת נווה צדק </a> </li>
+                      <li> <a href=#culinaryHatikva” class="notActive"> בשכונת התקווה </a> </li>
+                             </ul>
+                    </li>
+                    <li> <a href=“#people”> סיפורי קהילה </a> 
+                        <ul>
+                            <li> <a href=#peopleFlor”> בשכונת פלורנטין </a> </li>
+                            <li> <a href=#peopleNeve” class="notActive"> בשכונת נווה צדק </a> </li>
+                            <li> <a href=#peopleHatikva” class="notActive"> בשכונת התקווה </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href=“#streets”> סיפורי רחוב</a> 
+                        <ul>
+                            <li> <a href=#streetsFlor”> בשכונת פלורנטין </a> </li>
+                            <li> <a href=#streetsNeve” class="notActive"> בשכונת נווה צדק </a> </li>
+                            <li> <a href=#streetsHatikva” class="notActive"> בשכונת התקווה </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#interactiv"> מפה אינטראקטיבית  </a> </li>
+                    </ul>
+
+                    </nav>    
+         
+                    <h1>
+                            <img src="images/logo.png" id="logo" alt="לוגו" style="width:190px;height:190px;">  
+        
+        
+                    </h1>
+    </header>
+
+    <div id="container">
+
+
+        <form class="form">
+                <h1 id="contacttitle">צרו עימנו קשר</h1>
+
+            <input type="hidden" id="myEmail" name="name" value="talb591994@gmail.com">
+
+
+            <label for="FirstName">
+                שם פרטי:
+                <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+            </label>
+
+            <label for="LastName">
+                שם משפחה:
+                <input type="text" id="LastName" placeholder="הכנס את שם משפחך" />
+            </label>
+
+
+
+
+            <label for="male">
+                <input type="radio" id="male" name="gender" checked /> זכר
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="gender" /> נקבה
+            </label>
+
+            <label for="mySelect">
+            האם האתר היה לטעמך?
+                <select id="mySelect">
+                    <option value="1"> כן</option>
+                    <option value="2" selected> לא</option>
+                    <option value="3" selected> ככה ככה</option>
+                </select>
+            </label>
+
+
+            <label for="myMS">
+                אם בא לך לכתוב לנו משהו, אנחנו נשמח(:
+                <textarea id="myMS"></textarea>
+            </label>
+
+
+            <input type="submit" id="Send" value="שלח">
+
+            <div id="feedback"></div>
+
+        </form>
+
+
+
+    <footer class="footer">
+        <nav id="footerNav">
+   <ul id="contactfoot">
+<li><a href="contact.html"><div id="contli" ></div> צור קשר</a></li>
+
+<li><a href="about.html"><div id="aboutli" ></div>אודות</a></li>
+
+<li><a href="map.html"><div id="mapli" ></div>מפת אתר</a></li>
+</ul>   
+</nav>
+</footer>
+    </div>
+</body>
+</html>

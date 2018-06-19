@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="hebrew">
+<head>
+    <meta charset="utf-8" />
+    <title>מפת אתר-סיפורי שכונות</title>
+    <meta name="description" content="סיפורי שכונות" />
+    <meta name="keywords" content= "מפת אתר, סיפורי שכונות, תואר ראשון, פרויקט, מכון טכנולוגי חולון"/>
+    <meta name="author" content="טל בר יוסף, ניב בירו, אור אסם" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="Images/favicon.png" >
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body id="mapbody">
+    <div id="container">
+
+   
+        <header class="header"> 
+
+               
+                <nav id="topnav">
+                        <ul>
+                        <li> <a href=index.html> דף בית </a> </li>
+                        <li> <a href=“#culinary”>  סיפורים מהמטבח </a>
+                                  <ul>
+                          <li> <a href=#culinaryFlor”> בשכונת פלורנטין </a> </li>
+                          <li> <a href=#culinaryNeve” class="notActive"> בשכונת נווה צדק </a> </li>
+                          <li> <a href=#culinaryHatikva” class="notActive"> בשכונת התקווה </a> </li>
+                                 </ul>
+                        </li>
+                        <li> <a href=“#people”> סיפורי קהילה </a> 
+                            <ul>
+                                <li> <a href=#peopleFlor”> בשכונת פלורנטין </a> </li>
+                                <li> <a href=#peopleNeve” class="notActive"> בשכונת נווה צדק </a> </li>
+                                <li> <a href=#peopleHatikva” class="notActive"> בשכונת התקווה </a> </li>
+                            </ul>
+                        </li>
+                        <li> <a href=“#streets”> סיפורי רחוב</a> 
+                            <ul>
+                                <li> <a href=#streetsFlor”> בשכונת פלורנטין </a> </li>
+                                <li> <a href=#streetsNeve” class="notActive"> בשכונת נווה צדק </a> </li>
+                                <li> <a href=#streetsHatikva” class="notActive"> בשכונת התקווה </a> </li>
+                            </ul>
+                        </li>
+                        <li> <a href="#interactiv"> מפה אינטראקטיבית  </a> </li>
+                        </ul>
+                        </nav>  
+             
+                       
+        </header>
+        <h1>
+                <img src="images/logo.png" id="logo" alt="לוגו" style="width:190px;height:190px;">  
+
+
+        </h1>
+<nav id="map">
+
+            <h2 id="firstTitleMap" >מפת אתר</h2>
+       
+            <div class="mapList">
+                    <h3 class="second_title_map"> <li> <a href="florentin.html"> פלורנטין </a> </li> </h3>
+                    <ul>
+                    <li> <a href="#"> סיפורים מהמטבח</a> </li>
+                    </ul>
+                        <li> <a href="kiosko.html" class="grayL"> קיוסקו</a> </li>
+                        <li> <a href="#">  דדה</a> </li>
+                        <li> <a href="#">  הכריך של הדודות</a> </li>
+                    </ul>
+                    
+                    <li> <a href="#"> סיפורי רחוב</a> </li>
+                    <ul>
+                        <li> <a href="#">  מזרחי</a> </li>
+                        <li> <a href="#">  פרנקל</a> </li>
+                        <li> <a href="#">  וושינגטון</a> </li>
+                    </ul>
+                    <li> <a href="#">  סיפורי קהילה</a> </li>
+                    <ul>
+                        <li> <a href="#">  סימה</a> </li>
+                        <li> <a href="#">  שיין</a> </li>
+                        <li> <a href="#">  קואופרטיב מקומי</a> </li>
+                    </ul>
+                 
+                    </div>
+
+        
+        <div class="mapList">
+            <h3 class="second_title_map"> <li> <a href="index.html"> נווה צדק</a> </li> </h3>
+            <ul>
+            <li> <a href="#"> סיפורים מהמטבח</a> </li>
+            </ul>
+                <li> <a href="#"> גלידה אניטה </a> </li>
+                <li> <a href="#">  המטבח התימני של ענת</a> </li>
+               
+            </ul>
+            
+            <li> <a href="#"> סיפורי רחוב</a> </li>
+            <ul>
+                <li> <a href="#">  שלוש</a> </li>
+                <li> <a href="#">  פינס</a> </li>
+
+            </ul>
+            <li> <a href="#"> סיפורי קהילה</a> </li>
+            <ul>
+                <li> <a href="#"> גילדת הצורפים </a> </li>
+                <li> <a href="#">  דיאנה - שגרירה של שלום</a> </li>
+              
+            </ul>        
+            </div>
+
+            <div class="mapList">
+                <h3 class="second_title_map"> <li> <a href="index.html"> התקווה</a> </li> </h3>
+            </ul>
+            <li> <a href="#"> סיפורים מהמטבח</a> </li>
+            <ul>
+                <li> <a href="#">  סאלוף</a> </li>
+                <li> <a href="#">  מלבי אקספרס</a> </li>
+            </ul>
+            <li> <a href="#"> סיפורי רחוב</a> </li>
+            <ul>
+                <li> <a href="#">  סימטת השוק</a> </li>
+                <li> <a href="#">  האצ״ל</a> </li>
+            </ul>
+            <li> <a href="#"> סיפורי קהילה</a> </li>
+            <ul>
+                <li> <a href="#">  האגוס - דייר חדש</a> </li>
+                <li> <a href="#">  על הרצף</a> </li>
+            </ul>
+       
+            </div>
+<div class="mapList">
+    <ul>
+            <li> <a href="about.html">  אודות </a> </li>
+           
+            <li> <a href="contact.html"> צור קשר</a> </li>
+            
+            <li> <a href="map.html"> מפת אתר</a> </li>
+
+            <li> <a href="#">  מפה אינטראקטיבית</a> </li>
+
+            <li> <a href="index.html">דף בית</a> </li>
+
+        </ul>
+        </div>
+        </nav>
+
+        <footer class="footer">
+            <nav id="footerNav">
+       <ul>
+  <li><a href="contact.html"><div id="contli" ></div> צור קשר</a></li>
+
+  <li><a href="about.html"><div id="aboutli" ></div>אודות</a></li>
+
+    <li><a href="map.html"><div id="mapli" ></div>מפת אתר</a></li>
+    </ul>   
+    </nav>
+    </footer>
+    </div>
+</body>
+</html>
